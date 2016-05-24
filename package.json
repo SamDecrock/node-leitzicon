@@ -1,0 +1,31 @@
+{
+  "name": "node-leitzicon",
+  "description": "a node.js module to print labels using the Leitz Icon printer",
+  "version": "0.0.1",
+  "author": {
+    "name": "Sam Decrock",
+    "url": "https://github.com/SamDecrock/"
+  },
+  "bugs": {
+    "url": "https://github.com/SamDecrock/node-leitzicon/issues"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/SamDecrock/node-leitzicon.git"
+  },
+  "main": "./lib/leitzicon",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "dependencies": {
+    "async": "^1.5.2",
+    "ipp": "0.0.8",
+    "png2lwxl": "*"
+  }
+}
