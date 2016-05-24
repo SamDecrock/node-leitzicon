@@ -1,5 +1,5 @@
 {
-  "name": "node-leitzicon",
+  "name": "leitzicon",
   "description": "a node.js module to print labels using the Leitz Icon printer",
   "version": "0.0.1",
   "author": {
